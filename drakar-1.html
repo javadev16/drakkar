@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DRAKKAR | Hidromiel Premium</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f0f0f;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+header {
+    height: 200vh;
+    
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://ibb.co/XZFLwb65') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+header p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 30px;
+    background-color: #c28b2c;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #e6a93d;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+.section-dark {
+    background-color: #151515;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #c28b2c;
+}
+
+footer {
+    background-color: #0a0a0a;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>DRAKKAR</h1>
+        <p>Hidromiel artesanal elaborada con miel pura y agua potable fermentada con levaduras vínicas. Tradición ancestral. Espíritu moderno.</p>
+        <a href="#producto" class="btn">Descubre la experiencia</a>
+    </div>
+</header>
+
+<section id="producto">
+    <h2>¿Qué es DRAKKAR?</h2>
+    <p>
+        DRAKKAR es hidromiel premium. Una bebida natural creada a partir de miel seleccionada y agua potable,
+        fermentada cuidadosamente mediante levaduras vínicas para lograr un equilibrio perfecto entre dulzor,
+        cuerpo y carácter.
+    </p>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Origen Natural</h3>
+            <p>Miel pura de productores locales seleccionados con altos estándares de calidad.</p>
+        </div>
+
+        <div class="card">
+            <h3>Fermentación Controlada</h3>
+            <p>Proceso con levaduras vínicas que aportan aroma, complejidad y estabilidad.</p>
+        </div>
+
+        <div class="card">
+            <h3>Producción Local</h3>
+            <p>Elaborado en Arequipa, Perú. Clima y altitud que potencian su carácter único.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section-dark">
+    <h2>Notas de Cata</h2>
+    <p>
+        Aroma floral con fondo cálido a miel madura. Entrada suave. Final equilibrado y persistente.
+        Ideal para compartir en reuniones, celebraciones o momentos especiales.
+    </p>
+</section>
+
+<section>
+    <h2>Espíritu DRAKKAR</h2>
+    <p>
+        Inspirado en la tradición nórdica, pero creado en el sur del Perú.
+        Una bebida que celebra la fuerza, la unión y la historia.
+        Cada botella es una invitación a brindar con carácter.
+    </p>
+
+    <a href="#" class="btn">Próximamente disponible</a>
+</section>
+
+<footer>
+    <p>DRAKKAR Hidromiel · Producido en Arequipa, Perú</p>
+    <p>© 2026 DRAKKAR. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
